@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elif Ülkü İşlek CV</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI',sans-serif;
+            background: linear-gradient(135deg,#667eea,#764ba2);
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.2);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .profile-img {
+            display: block;
+            margin: auto;
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 6px solid #764ba2;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 28px;
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+            .contact p {
+                margin-bottom: 12px;
+            }
+
+        .linkedin-btn {
+            display: inline-block;
+            background: #0077b5;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+            .linkedin-btn:hover {
+                background: #005582;
+                transform: translateY(-3px);
+            }
+
+        .section {
+            margin-top: 35px;
+            padding: 25px;
+            background: #f8f9ff;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+            .section:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            }
+
+            .section h3 {
+                color: #764ba2;
+                margin-bottom: 10px;
+                border-left: 6px solid #764ba2;
+                padding-left: 10px;
+            }
+
+        ul, ol {
+            margin-left: 20px;
+            margin-top: 10px;
+            line-height: 1.7;
+        }
+
+        strong {
+            color: #333;
+        }
+
+        @media(max-width:768px) {
+            .container {
+                padding: 25px;
+            }
+        }
+        .skill {
+            margin-bottom: 15px;
+        }
+
+        .skill-name {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .skill-bar {
+            width: 100%;
+            background: #e0e0e0;
+            border-radius: 20px;
+            overflow: hidden;
+            height: 12px;
+        }
+
+        .skill-fill {
+            height: 100%;
+            width: 0;
+            border-radius: 20px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            animation: fillAnimation 2s forwards;
+        }
+
+        @keyframes fillAnimation {
+            from {
+                width: 0;
+            }
+        }
+        .form-group {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+            .form-group label {
+                font-weight: 600;
+                margin-bottom: 5px;
+                color: #555;
+            }
+
+            .form-group input,
+            .form-group textarea {
+                padding: 10px;
+                border-radius: 10px;
+                border: 1px solid #ccc;
+                font-size: 14px;
+                transition: 0.3s;
+            }
+
+                .form-group input:focus,
+                .form-group textarea:focus {
+                    border-color: #764ba2;
+                    outline: none;
+                    box-shadow: 0 0 5px rgba(118,75,162,0.4);
+                }
+
+        .send-btn {
+            background: linear-gradient(90deg,#667eea,#764ba2);
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 25px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+            .send-btn:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img src="elif.jpg" alt="Elif Ülkü İşlek" class="profile-img">
+
+        <h1>Elif Ülkü İşlek</h1>
+
+        <div class="contact">
+            <p>📞 0507 105 11 73 | ✉️ islekelifulku@gmail.com</p>
+            <a href="https://www.linkedin.com/in/elif-ülkü-işlek-33679336a" target="_blank" class="linkedin-btn">
+                <i class="fab fa-linkedin"></i> LinkedIn Profilim
+            </a>
+        </div>
+
+        <div class="section">
+            <h3>PROFİL</h3>
+            <p>
+                Yönetim Bilişim Sistemleri 3. sınıf öğrencisiyim. C#, Kotlin ve web teknolojileri alanlarında kendimi geliştirmekteyim.
+                Mobil uygulama geliştirme ve yazılım projeleri üzerine çalışmalar yapıyorum. İş analizi, veri analizi ve süreç yönetimi
+                alanlarında akademik projeler ve uygulamalar gerçekleştirdim. SWOT, iş modeli ve süreç diyagramları kullanarak raporlama
+                ve sunum deneyimi kazandım. Uzun yıllar lisanslı spor geçmişim sayesinde disiplinli çalışma alışkanlığı ve güçlü takım
+                uyumu geliştirdim. Analitik düşünme yeteneğine sahip, öğrenmeye açık ve disiplinli biriyim.
+            </p>
+        </div>
+
+
+        <div class="section">
+            <h3>TEKNİK BECERİLER</h3>
+
+            <ul>
+                <li>Programlama: C#, Python, Kotlin</li>
+                <li>Veri ve İş Analizi: SWOT Analizi, Süreç Diyagramları, İş Model Analizi ve Raporlama</li>
+                <li>Web/ERP/Araçlar: HTML, CSS, ERP Temel Bilgi, Visual Studio, Android Studio, Colab</li>
+            </ul>
+
+            <div class="skill">
+                <div class="skill-name">Programlama</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width:85%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">Veri & İş Analizi</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width:80%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">Web & Araçlar</div>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width:75%;"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="section">
+            <h3>PROJELER</h3>
+            <ol>
+
+                <li>
+                    <strong>Kurumsal Doküman ve Yönetim Bilgi Sistemi (Web Projesi - Devam Ediyor)</strong>
+                    <ul>
+                        <li>Kurumsal doküman ve karar süreçlerini dijital ortamda yönetmek üzere web tabanlı sistem geliştirilmektedir.</li>
+                        <li>Kullanıcıların dokümanlara erişimi, onay süreçleri ve karar mekanizmaları takip edilebilecek şekilde tasarlanmıştır.</li>
+                        <li>Süreç analizi ve veri yönetimi odaklı tasarım uygulanmaktadır.</li>
+                        <li>HTML, CSS ve veri tabanı entegrasyonu kullanılmaktadır.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Kafe Kurumsallaşma Süreci Analizi (Akademik Proje)</strong>
+                    <ul>
+                        <li>Çalışılan işletmenin kurumsallaşma süreci incelenmiştir.</li>
+                        <li>SWOT analizi ve süreç diyagramları oluşturulmuştur.</li>
+                        <li>İş modeli analizi yapılarak raporlama ve sunum gerçekleştirilmiştir.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Akıllı Park Yeri Yönetim Sistemi (C#)</strong>
+                    <ul>
+                        <li>Park yeri yönetimi için C# ile masaüstü uygulaması geliştirilmiştir.</li>
+                        <li>Kullanıcıların park yeri durumunu görüntüleyebileceği ve yönetebileceği bir arayüz tasarlanmıştır.</li>
+                        <li>Veri tabanı entegrasyonu ile park yeri bilgileri saklanmaktadır.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Mobil Uygulama Geliştirme (Kotlin)</strong>
+                    <ul>
+                        <li>Android Studio kullanarak Kotlin ile mobil uygulama geliştirilmiştir.</li>
+                        <li>Uygulama, kullanıcıların belirli bir hizmete erişimini kolaylaştırmak amacıyla tasarlanmıştır.</li>
+                        <li>Kullanıcı dostu arayüz ve temel işlevsellik sağlanmıştır.</li>
+                    </ul>
+                </li>
+
+            </ol>
+        </div>
+
+        <div class="section">
+            <h3>EĞİTİM</h3>
+            <p>Ankara Hacı Bayram Veli Üniversitesi</p>
+            <p>Yönetim Bilişim Sistemleri (MIS) – Lisans</p>
+            <p>2023 – Devam Ediyor</p>
+        </div>
+
+        <div class="section">
+            <h3>İŞ DENEYİMİ</h3>
+            <ol>
+                <li>
+                    <strong>Barista – Part Time</strong>
+                    <ul>
+                        <li>Müşteri ilişkileri ve hizmet kalitesi odaklı çalışılmıştır.</li>
+                        <li>Takım çalışması ve iletişim becerileri geliştirilmiştir.</li>
+                        <li>Hızlı tempolu bir ortamda etkili zaman yönetimi sağlanmıştır.</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h3>SOSYAL VE SPOR FAALİYETLER</h3>
+            <ol>
+                <li>
+                    <strong>Lisanslı Voleybol Oyuncusu – Şimşek Spor Kulübü & Eczacıbaşı Altyapı</strong>
+                    <ul>
+                        <li>6 yıl lisanslı ve aktif sporculuk</li>
+                        <li>Eczacıbaşı altyapı kamp ve organizasyonlarına katılım</li>
+                        <li>Takım çalışması, disiplin ve performans odaklı deneyim</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Lösev – Gönüllü</strong>
+                    <ul>
+                        <li>Organizasyon ve destek çalışmalarına katılım</li>
+                        <li>Sosyal sorumluluk projelerinde aktif görev alma</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h3>YABANCI DİL</h3>
+            <ul>
+                <li>İngilizce – B2 (Speaking – Writing – Listening)</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="section">
+        <h3>İLETİŞİM</h3>
+
+        <form action="https://formsubmit.co/islekelifulku@gmail.com" method="POST">
+
+            <div class="form-group">
+                <label>Ad Soyad</label>
+                <input type="text" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label>E-posta</label>
+                <input type="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Konu</label>
+                <input type="text" name="subject" required>
+            </div>
+
+            <div class="form-group">
+                <label>Mesaj</label>
+                <textarea name="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="send-btn">
+                <i class="fas fa-paper-plane"></i> Gönder
+            </button>
+
+        </form>
+    </div>
+</body>
+</html>
